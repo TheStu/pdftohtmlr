@@ -41,7 +41,7 @@ end
 # Create compressed packages
 spec = Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
-  s.name = 'pdftohtmlr'
+  s.name = PKG_NAME
   s.summary = "Convert PDF documents to HTML."
   s.description = %q{Uses command-line pdftohtml tools to convert PDF files to HTML.}
   s.version = PKG_VERSION
