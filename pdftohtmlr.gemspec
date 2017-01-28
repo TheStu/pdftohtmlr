@@ -29,6 +29,10 @@ $:.push File.expand_path("../lib", __FILE__)
 #   s.add_development_dependency 'rubyzip'
 # end
 
+PKG_NAME      = 'pdftohtmlr'
+PKG_VERSION   = '0.4.2'
+PKG_FILE_NAME = "#{PKG_NAME}-#{PKG_VERSION}"
+
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = PKG_NAME
