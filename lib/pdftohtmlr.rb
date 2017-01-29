@@ -47,7 +47,7 @@ module PDFToHTMLR
       elsif @owner_pwd 
         cmd = "pdftohtml -stdout #{@format} -opw #{@owner_pwd}" + ' "' + @path + '"'
       else
-        cmd = "pdftohtml -enc 'UTF-8' -stdout #{@format}" + ' "' + @path + '"'
+        cmd = "pdftohtml -enc 'UTF-8' -stdout #{@format}" + ' ' + @path
       end
       
       output = `#{cmd} 2>&1`
