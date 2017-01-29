@@ -20,7 +20,7 @@ module PDFToHTMLR
   # Simple local error abstraction
   class PDFToHTMLRError < RuntimeError; end
   
-  VERSION = '0.4.2'
+  VERSION = '0.4.3'
 
   # Provides facilities for converting PDFs to HTML from Ruby code.
   class PdfFile

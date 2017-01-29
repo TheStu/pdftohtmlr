@@ -30,7 +30,7 @@ $:.push File.expand_path("../lib", __FILE__)
 # end
 
 PKG_NAME      = 'pdftohtmlr'
-PKG_VERSION   = '0.4.2'
+PKG_VERSION   = '0.4.3'
 PKG_FILE_NAME = "#{PKG_NAME}-#{PKG_VERSION}"
 
 Gem::Specification.new do |s|
